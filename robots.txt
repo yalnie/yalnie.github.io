@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yalnie.github.io/sitemap.xml

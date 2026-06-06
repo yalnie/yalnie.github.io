@@ -1,0 +1,151 @@
+/* Light mode */
+:root {
+  --md-sys-color-primary: #0B57D0;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-surface: #F9F9FB;
+  --md-sys-color-on-surface: #1C1B1F;
+  --md-sys-color-surface-container: #FFFFFF;
+  --md-sys-color-outline: #79747E;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --md-sys-color-primary: #A8C7FA;
+    --md-sys-color-on-primary: #00315E;
+    --md-sys-color-surface: #1C1B1F;
+    --md-sys-color-on-surface: #E6E1E5;
+    --md-sys-color-surface-container: #2B2930;
+    --md-sys-color-outline: #938F99;
+  }
+}
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 24px;
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* Card layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--md-sys-color-surface-container);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.card-content {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin: 8px 0 16px 0;
+  color: var(--md-sys-color-on-surface);
+}
+
+/* Button style */
+md-filled-button {
+  --md-filled-button-container-color: var(--md-sys-color-primary);
+  --md-filled-button-label-text-color: var(--md-sys-color-on-primary);
+}
+
+/* Dialog theme (Material 3 native) */
+#linksDialog {
+  --md-dialog-container-color: var(--md-sys-color-surface-container);
+  --md-dialog-headline-color: var(--md-sys-color-on-surface);
+  --md-dialog-supporting-text-color: var(--md-sys-color-on-surface);
+  color: var(--md-sys-color-on-surface);
+}
+
+/* Dialog content formatting */
+#dialogContent {
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-y: auto;
+  max-height: 400px;
+  padding-right: 8px;
+}
+
+#dialogContent a {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+#dialogContent h1, 
+#dialogContent h2, 
+#dialogContent h3 {
+  margin: 12px 0 8px 0;
+}
+
+#dialogContent strong {
+  font-weight: 600;
+}
+/* --- Desktop optimization --- */
+md-dialog#linksDialog {
+  --md-dialog-container-max-width: 900px;
+  --md-dialog-container-min-width: 600px;
+  width: 80vw;
+  max-width: 900px;
+}
+#dialogContent {
+  padding: 16px 24px;
+}
+/* --- Button group --- */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .button-group {
+    flex-direction: row;
+    justify-content: flex-end; /* or space-between */
+    gap: 8px;
+  }
+
+  .button-group md-filled-button {
+    width: auto;
+    min-width: 120px;
+  }
+}

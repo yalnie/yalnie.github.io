@@ -1,0 +1,76 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 1,
+    "maxPage": 1,
+    "itemsTotal": 1
+  },
+  "packages": [
+    {
+      "id": "ru.lgerp.cutterpillars101",
+      "title": "Cutter Pillars",
+      "iconUri": "https://yalnie.github.io/repo/ru.lgerp.cutterpillars101/27692778010966501_16912977_192x192.png",
+      "manifest": {
+        "id": "ru.lgerp.cutterpillars101",
+        "version": "1.38.2",
+        "type": "native",
+        "title": "Cutter Pillars",
+        "appDescription": "CutterPillars is a funny mix of \"Sea Battle\" and \"Snake\". Move your caterpillars around the game field to trick your opponent and avoid bomb hits!",
+        "iconUri": "https://yalnie.github.io/repo/ru.lgerp.cutterpillars101/27692778010966501_16912977_192x192.png",
+        "sourceUrl": "https://archive.org/details/ru.lgerp.cutterpillars101",
+        "rootRequired": false,
+        "ipkUrl": "https://yalnie.github.io/repo/ru.lgerp.cutterpillars101/ru.lgerp.cutterpillars101.ipk",
+        "ipkHash": {
+          "sha256": "9375e606384f4ef62aae536861e3b5412e752baab493aa2f0f854d59dc2cf764"
+        }
+      },
+      "pool": "main",
+      "shortDescription": "CutterPillars is a funny mix of \"Sea Battle\" and \"Snake\". Move your caterpillars around the game field to trick your opponent and avoid bomb hits!",
+      "fullDescriptionUrl": "https://yalnie.github.io/repo/ru.lgerp.cutterpillars101/full_description.html"
+    },
+    {
+      "id": "ru.lgerp.tvpool",
+      "title": "TV Pool",
+      "iconUri": "https://yalnie.github.io/repo/ru.lgerp.tvpool/26134802006725855_5_192x192.png",
+      "manifest": {
+        "id": "ru.lgerp.tvpool",
+        "version": "1.0.5",
+        "type": "native",
+        "title": "TV Pool",
+        "appDescription": "A classic billiards game. Play with friends or against TV",
+        "iconUri": "https://yalnie.github.io/repo/ru.lgerp.tvpool/27692778010966501_16912977_192x192.png",
+        "sourceUrl": "https://archive.org/details/ru.lgerp.tvpool",
+        "rootRequired": false,
+        "ipkUrl": "https://yalnie.github.io/repo/ru.lgerp.tvpool/ru.lgerp.tvpool.ipk",
+        "ipkHash": {
+          "sha256": "f2ea51b6a5c754c8c59be591cc96e7c87742e07c9d7bad0f5aa0028ed5dc2587"
+        }
+      },
+      "pool": "main",
+      "shortDescription": "A classic billiards game. Play with friends or against TV",
+      "fullDescriptionUrl": "https://yalnie.github.io/repo/ru.lgerp.tvpool/full_description.html"
+    },
+    {
+      "id": "ru.lgerp.tvsoccer",
+      "title": "TV Soccer",
+      "iconUri": "https://yalnie.github.io/repo/ru.lgerp.tvsoccer/26140087273705351_16886455_192x192.png",
+      "manifest": {
+        "id": "ru.lgerp.tvsoccer",
+        "version": "1.1.3",
+        "type": "native",
+        "title": "TV Soccer",
+        "appDescription": "TV Soccer is a game where you can try yourself as a soccer goalscorer. Trick the goalkeeper and score as many goals as you can!",
+        "iconUri": "https://yalnie.github.io/repo/ru.lgerp.tvsoccer/27692778010966501_16912977_192x192.png",
+        "sourceUrl": "https://archive.org/details/ru.lgerp.tvsoccer",
+        "rootRequired": false,
+        "ipkUrl": "https://yalnie.github.io/repo/ru.lgerp.tvsoccer/ru.lgerp.tvsoccer.ipk",
+        "ipkHash": {
+          "sha256": "db296b82060e13c89ddd4c0669a02a3cb6ae510ac306a6b239cc59c4e323c7dc"
+        }
+      },
+      "pool": "main",
+      "shortDescription": "TV Soccer is a game where you can try yourself as a soccer goalscorer. Trick the goalkeeper and score as many goals as you can!",
+      "fullDescriptionUrl": "https://yalnie.github.io/repo/ru.lgerp.tvsoccer/full_description.html"
+    }
+  ]
+}

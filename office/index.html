@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="nM3yZOx0J2lb90awuIEVgKDgBiUJJz-g-WCyX6HS7lU" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(143, 75, 57)">
+  <meta name="color-scheme" content="light dark">
+  <title>Office Direct Download Links</title>
+
+  <meta name="title" content="Office Direct Download Links">
+  <meta name="description" content="Download Microsoft Office 2013–2024 and Microsoft 365 directly from Microsoft’s CDN.">
+  <meta name="keywords" content="Office, Microsoft Office, Office 365, Office 2024, direct download, ISO, installer">
+  <meta name="author" content="Yalnie">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yalnie.github.io/office/">
+
+	<!-- Open Graph (Facebook, Discord, Telegram) -->
+	<meta property="og:title" content="Office Direct Download Links">
+	<meta property="og:description" content="Download Microsoft Office 2013–2024 and Microsoft 365 directly from Microsoft’s CDN.">
+	<meta property="og:image" content="https://yalnie.github.io/office/banners/preview.png">
+	<meta property="og:url" content="https://yalnie.github.io/office/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Yalnie's Website">
+
+	<!-- Twitter(X) Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Office Direct Download Links">
+	<meta name="twitter:description" content="Download Microsoft Office 2013–2024 and Microsoft 365 directly from Microsoft’s CDN.">
+	<meta name="twitter:image" content="https://yalnie.github.io/office/banners/preview.png">
+
+  <!-- Fonts, icons and favicon -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon/png/512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/png/192x192.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon/png/48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/png/32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/png/16x16.png">
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+
+  <!-- Import map -->
+  <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+
+  <!-- CSS and JS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="module" src="js/links.js"></script>
+  <script type="module" src="js/style.js" defer></script>
+</head>
+<body>
+  <h1 class="md-typescale-display-medium">Office Direct Download Links</h1>
+  <div class="container">
+  
+    <!-- Office 2013 -->
+    <div class="card">
+      <img src="banners/2013-banner.png" alt="Office 2013" />
+      <div class="card-content">
+        <h2>Microsoft Office 2013</h2>
+        <md-filled-button onclick="openDialog('2013')">Show links</md-filled-button>
+      </div>
+    </div>
+    
+    <!-- Office 2016 -->
+    <div class="card">
+      <img src="banners/2013-banner.png" alt="Office 2016" />
+      <div class="card-content">
+        <h2>Microsoft Office 2016</h2>
+        <md-filled-button onclick="openDialog('2016')">Show links</md-filled-button>
+      </div>
+    </div>
+    
+    <!-- Office 2019 -->
+    <div class="card">
+      <picture>
+        <source srcset="banners/2019-banner-dark.png" media="(prefers-color-scheme: dark)">
+        <source srcset="banners/2019-banner.png" media="(prefers-color-scheme: light)">
+        <img src="banners/2019-banner.png" alt="Office 2019">
+      </picture>
+      <div class="card-content">
+        <h2>Microsoft Office 2019</h2>
+        <md-filled-button onclick="openDialog('2019')">Show links</md-filled-button>
+      </div>
+    </div>
+    
+    <!-- Office 2021 -->
+    <div class="card">
+      <picture>
+        <source srcset="banners/2019-banner-dark.png" media="(prefers-color-scheme: dark)">
+        <source srcset="banners/2019-banner.png" media="(prefers-color-scheme: light)">
+        <img src="banners/2019-banner.png" alt="Office 2021">
+      </picture>
+      <div class="card-content">
+        <h2>Microsoft Office 2021</h2>
+        <md-filled-button onclick="openDialog('2021')">Show links</md-filled-button>
+      </div>
+    </div>
+    
+    <!-- Office 2024 -->
+    <div class="card">
+      <picture>
+        <source srcset="banners/2019-banner-dark.png" media="(prefers-color-scheme: dark)">
+        <source srcset="banners/2019-banner.png" media="(prefers-color-scheme: light)">
+        <img src="banners/2019-banner.png" alt="Office 2024">
+      </picture>
+      <div class="card-content">
+        <h2>Microsoft Office 2024</h2>
+        <md-filled-button onclick="openDialog('2024')">Show links</md-filled-button>
+      </div>
+    </div>
+    
+    <!-- Microsoft 365 -->
+    <div class="card">
+      <img src="banners/365-banner.png" alt="Microsoft 365" />
+      <div class="card-content">
+        <h2>Microsoft 365</h2>
+        <md-filled-button onclick="openDialog('365')">Show links</md-filled-button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal Dialog -->
+  <md-dialog id="linksDialog">
+    <div slot="headline" id="dialogTitle">Microsoft Office Links</div>
+    <div slot="content" id="dialogContent" class="dialog-content"></div>
+    <div slot="actions">
+      <md-filled-button id="closeDialog">Close</md-filled-button>
+    </div>
+  </md-dialog>
+  <footer class="site-footer">
+  © 2026 yalnie • Material Design 3 ❤️
+</footer>
+</body>
+</html>
