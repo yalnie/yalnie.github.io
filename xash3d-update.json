@@ -1,0 +1,12 @@
+{
+  "latest_version": "random",
+  "latest_version_code": "92929202",
+  "changelog": "changed updater",
+  "platforms": {
+    "android": {
+      "download_url": "https://example.com/",
+      "is_direct_download": true,
+      "file_name": "example.apk"
+    }
+  }
+}
