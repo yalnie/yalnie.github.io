@@ -1,12 +1,12 @@
 {
-  "latest_version": "random",
-  "latest_version_code": "92929202",
+  "latest_version": "0.21-41c12b7",
+  "latest_version_code": "41390565",
   "changelog": "changed updater",
   "platforms": {
     "android": {
-      "download_url": "https://example.com/",
+      "download_url": "https://github.com/yalnie/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-android.apk",
       "is_direct_download": true,
-      "file_name": "example.apk"
+      "file_name": "xash3d-fwgs-android.apk"
     }
   }
 }
