@@ -1,6 +1,7 @@
 {
-  "latest_version": "0.21-41c12b7",
-  "latest_version_code": "41390565",
+  "latest_version_name": "0.21-41c12b7",
+  "latest_version_code": "91390565",
+  "latest_version_commit": "91390565",
   "changelog": "changed updater",
   "platforms": {
     "android": {
